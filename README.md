@@ -113,7 +113,7 @@ print(f"Precision: {metrics['precision']}, Recall: {metrics['recall']}, F1: {met
 ### Working with Embeddings
 
 ```python
-from src.gpt_utils import build_embedding, cosine_similarity
+from src.gpt_utils import build_embedding, cosine_similarity, find_most_similar_k
 
 # Generate embeddings for semantic search
 embedding = build_embedding(text, model="text-embedding-3-large")
